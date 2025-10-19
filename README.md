@@ -1,6 +1,6 @@
-# 🌳 Browml
+# 🌳 BrowML
 
-**Browml** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
+**BrowML** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
 
 ---
 
