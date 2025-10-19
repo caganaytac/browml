@@ -1,5 +1,5 @@
 export async function trainModel(model, trainData, epochs = 500, learningRate = 0.01, callback = null) {
-        for (let epoch = 0; epoch < epochs; epoch++) {
+    for (let epoch = 0; epoch < epochs; epoch++) {
         let dm = 0;
         let db = 0;
         

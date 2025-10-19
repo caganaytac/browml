@@ -1,6 +1,6 @@
-# 🌳 Nebula
+# 🌳 Browml
 
-**Nebula** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
+**Browml** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
 
 ---
 
@@ -62,7 +62,7 @@ const prediction = model.predict([[4]]); // → [8]
 ## 📝🔧 Development
 
 ```bash
-git clone https://github.com/yourusername/browml.git
+git clone https://github.com/caganaytac/browml.git
 cd browml
 npm install
 npm run dev
@@ -71,4 +71,5 @@ npm run dev
 ---
 
 ## 🤝 Contributing
-      Reach me via E-mail: cagan.aytac09@gmail.com
+    
+    Reach me via E-mail: cagan.aytac09@gmail.com
