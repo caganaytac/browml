@@ -1,6 +1,6 @@
-# 🌳 Canimo
+# 🌳 Nebula
 
-**Canimo** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
+**Nebula** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
 
 ---
 
