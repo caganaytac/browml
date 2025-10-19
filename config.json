@@ -1,0 +1,33 @@
+{
+  "name": "canimo",
+  "description": "Ligtweight deep learning library for JavaScript",
+  "version": "1.0.0",
+  "authors": [
+    "Cagan Aytac <cagan.aytac09@gmail.com>"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "echo \"No build step\"",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "machine-learning",
+    "deep-learning",
+    "AI",
+    "ML",
+    "javascript",
+    "neural-networks",
+    "canimo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<username>/canimo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caganaytac/canimo/issues"
+  },
+  "homepage": "https://github.com/caganaytac/canimo#readme"
+}
