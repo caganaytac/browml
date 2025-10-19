@@ -1,14 +1,14 @@
 # 🌳 BrowML
 
-**BrowML** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just clean, readable JavaScript.
+**BrowML** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
 
 ---
 
 ## 🎉 Features
 
-- 🧠 Core ML algorithms: linear regression, logistic regression, decision trees, k-means
+- 🧠 Core ML algorithms: Supervised Learning, Unsupervised Learning, Reward-based Learning
 - 📦 Zero dependencies — pure JS
-- 🌐 Runs natively in the browser
+- 🌐 Runs natively in the browser (no server required)
 - 🔍 Transparent code for learning and experimentation
 - 📊 Interactive demos with real-time feedback
 
@@ -18,74 +18,57 @@
 
 ```bash
 npm install browml
+```
 
 Or include directly in your HTML:
 
-<script src="browml.min.js"></script>
+```html
+<script src="browml.js"></script>
+```
 
-🧠 Algorithms Included
+---
 
-Algorithm
+## 🧠 Algorithms Included
 
-Type
+| Algorithm          | Type         | Status  |
+|--------------------|--------------|---------|
+| Linear Regression  | Supervised   | ✅ Stable |
+| Logistic Regression| Supervised   | ✅ Stable |
+| Decision Trees     | Supervised   | ✅ Stable |
+| K-Means Clustering | Unsupervised | ✅ Stable |
 
-Status
+---
 
-Linear Regression
+## 🧪 Example Usage
 
-Supervised
-
-✅ Stable
-
-Logistic Regression
-
-Supervised
-
-✅ Stable
-
-Decision Tree
-
-Supervised
-
-🤪 Experimental
-
-K-Means Clustering
-
-Unsupervised
-
-✅ Stable
-
-🧪 Example Usage
-
+```ts
 import { LinearRegression } from 'browml';
 
 const model = new LinearRegression();
 model.fit([[1], [2], [3]], [2, 4, 6]);
 const prediction = model.predict([[4]]); // → [8]
+```
 
-📚 Documentation
+---
 
-Getting Started
+## 📚 Documentation
 
-API Reference
+* Getting Started  
+* API Reference  
+* Live Demos  
 
-Live Demos
+---
 
-📝🔧 Development
+## 📝🔧 Development
 
+```bash
 git clone https://github.com/yourusername/browml.git
 cd browml
 npm install
 npm run dev
+```
 
-🤝 Contributing
+---
 
-Pull requests are welcome! Please keep contributions minimal and dependency-free. See CONTRIBUTING.md for details.
-
-📄 License
-
-MIT — free to use, modify, and distribute.
-
-💡 Philosophy
-
-BrowML is built for clarity, accessibility, and experimentation. Whether you're learning ML or building lightweight browser tools, BrowML gives you the essentials — no clutter, no black boxes.
+## 🤝 Contributing
+      Reach me via E-mail: cagan.aytac09@gmail.com
