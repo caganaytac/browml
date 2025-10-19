@@ -1,6 +1,6 @@
-# 🌳 BrowML
+# 🌳 Canimo
 
-**BrowML** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
+**Canimo** is a minimal, dependency-free implementation of simple machine learning algorithms that run entirely in your browser. No build tools, no external libraries — just vanilla JavaScript.
 
 ---
 
