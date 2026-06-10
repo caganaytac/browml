@@ -49,15 +49,6 @@ model.fit([[1], [2], [3]], [2, 4, 6]);
 const prediction = model.predict([[4]]); // → [8]
 ```
 
----
-
-## 📚 Documentation
-
-* Getting Started  
-* API Reference  
-* Live Demos  
-
----
 
 ## 📝🔧 Development
 
