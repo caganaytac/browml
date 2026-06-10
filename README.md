@@ -33,9 +33,9 @@ Or include directly in your HTML:
 | Algorithm          | Type         | Status  |
 |--------------------|--------------|---------|
 | Linear Regression  | Supervised   | ✅ Stable |
-| Logistic Regression| Supervised   | ✅ Stable |
-| Decision Trees     | Supervised   | ✅ Stable |
-| K-Means Clustering | Unsupervised | ✅ Stable |
+| Logistic Regression| Supervised   | coming soon |
+| Decision Trees     | Supervised   | coming soon |
+| K-Means Clustering | Unsupervised | coming soon |
 
 ---
 
